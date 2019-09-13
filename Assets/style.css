@@ -31,7 +31,6 @@ header {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 21px;
     color: #777777;
-
 }
 
 #link-about {
@@ -138,7 +137,18 @@ footer, .pageContent::after {
     width: 225px;
 }
 
+.contentFont {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 21px;
+}
 
+.inputStyle {
+    width: 100%;
+    height: 25px;
+    font-size: 17px;
+    margin-top: 6px;
+}
 
 
 /* This is everything to do with contact.html */
@@ -149,4 +159,30 @@ footer, .pageContent::after {
     margin: 20px;
     padding: 30px;
     background-color: white;
+}
+
+textarea {
+    width: 100%;
+    height: 200px;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+#contactSubmit {
+    background-color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    font-size: 18px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 5px;
+    -moz-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+}
+#contactSubmit:hover {
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: #439793;
 }

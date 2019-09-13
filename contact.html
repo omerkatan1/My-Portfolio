@@ -41,16 +41,22 @@
                 </div>
                 
                 <!--This is the content inside the main box-->
-                <div id="mainBoxContent">
-                    <p>Name</p>
-                    
-                    <br>
+                <div id="mainBoxContent" class="contentFont">
+                    <form action="/action_page.php">
+                        Name<br>
+                        <input class="inputStyle" type="text" name="Name">
+                        <br><br>
 
-                    <p>Email</p>
+                        Email<br>
+                        <input class="inputStyle" type="text" name="Email">
+                        <br><br>
 
-                    <br>
+                        Message<br>
+                        <textarea name="message"></textarea>
+                        <br><br>
 
-                    <p>Message</p>
+                        <input id="contactSubmit" type="submit">
+                    </form>
 
                 </div>
             </div>
