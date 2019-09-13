@@ -137,3 +137,16 @@ footer, .pageContent::after {
     height: 300px;
     width: 225px;
 }
+
+
+
+
+/* This is everything to do with contact.html */
+
+#mainBoxContact {
+    display: inline-block;
+    width: 960px;
+    margin: 20px;
+    padding: 30px;
+    background-color: white;
+}
