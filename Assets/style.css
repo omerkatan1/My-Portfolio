@@ -3,6 +3,7 @@ header {
     height: 100px;
     background-color: white;
     border-bottom: 2px solid #cccccc;
+    text-align: center;
 }
 
 #nameSection {
@@ -23,11 +24,10 @@ header {
 }
 
 #linkSections {
-    position: absolute;
-    right: 0px;
-    top: 40px;
-    width: 400px;
-    height: 100px;
+    display: inline-block;
+    position: relative;
+    top: -60px;
+    left: 510px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 21px;
     color: #777777;
@@ -169,7 +169,7 @@ textarea {
 }
 
 #contactSubmit {
-    background-color: white;
+    background-color: rgb(233, 233, 233);
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     color: #777777;
     font-size: 18px;
@@ -185,4 +185,14 @@ textarea {
     color: white;
     cursor: pointer;
     background-color: #439793;
+}
+
+/* everything regarding portfolio.html */
+
+#mainBoxPortfolio {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+    width: 960px;
+    background-color: white;
 }
