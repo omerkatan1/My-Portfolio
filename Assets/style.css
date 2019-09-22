@@ -49,7 +49,7 @@ header {
 }
 #link-contact {
     float: left;
-    margin-left: 10px
+    margin-left: 10px;
 }
 a:link, a:visited {
     color: #777777;
