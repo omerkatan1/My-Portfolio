@@ -27,10 +27,12 @@ header {
 
 /* This is a box containing all link elemnts inside (28-62)*/
 #linkSections {
-    display: inline-block;
     position: absolute;
-    top: 40px;
-    left: 940px;
+    margin-left: 50%;
+    left: 222px;
+    width: 300px;
+    height: 100px;
+    top: 39px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 21px;
     color: #777777;
